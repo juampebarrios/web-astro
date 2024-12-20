@@ -1,0 +1,20 @@
+---
+interface Props {
+  title: string,
+}
+
+const { title } = Astro.props
+
+---
+<nav>
+  {title}
+</nav>
+
+<style>
+nav {
+  height: 70px;
+  background-color: goldenrod;
+  position: sticky;
+  top: 0;
+}
+</style>
